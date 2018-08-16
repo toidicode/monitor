@@ -392,24 +392,37 @@ if (!empty($_POST['api']) && $_POST['api'] == true) {
 <body>
 <header>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container text-left">
-            <a class="navbar-brand" href="#">
-                <img src="https://toidicode.com/upload/images/logo.png" style="margin-top: -6px" alt="Toidicode logo"
-                     height="34px"></a>
-            <ul class="nav navbar-nav pull-right">
-                <li>
-                    <a href="#systeminfo" class="goto">System Info</a>
-                </li>
-                <li>
-                    <a href="#diskinfo" class="goto">Disk Info</a>
-                </li>
-                <li>
-                    <a href="#memoryinfo" class="goto">Memory Info</a>
-                </li>
-                <li>
-                    <a href="#cpuchart" class="goto">CPU Chart</a>
-                </li>
-            </ul>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="https://toidicode.com/upload/images/logo.png" style="margin-top: -6px" alt="Toidicode logo"
+                         height="34px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#systeminfo" class="goto">System Info</a>
+                    </li>
+                    <li>
+                        <a href="#diskinfo" class="goto">Disk Info</a>
+                    </li>
+                    <li>
+                        <a href="#memoryinfo" class="goto">Memory Info</a>
+                    </li>
+                    <li>
+                        <a href="#cpuchart" class="goto">CPU Chart</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
         </div>
     </nav>
 </header>
