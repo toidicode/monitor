@@ -2,7 +2,7 @@
 
 #### Screenshots
 
-![](https://raw.githubusercontent.com/toidicode/monitor/screenshots/fullscreent.png)
+![](https://raw.githubusercontent.com/toidicode/monitor/master/screenshots/fullscreent.png)
 
 #### Install
 
