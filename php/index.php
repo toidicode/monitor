@@ -401,8 +401,7 @@ if (!empty($_POST['api']) && $_POST['api'] == true) {
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="https://toidicode.com/upload/images/logo.png" style="margin-top: -6px" alt="Toidicode logo"
-                         height="34px"></a>
+                    <img src="https://static.toidicode.com/upload/images/logo.png" style="margin-top: -6px" alt="Toidicode logo" height="34px"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
